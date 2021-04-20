@@ -1,0 +1,74 @@
+@import url('/css/fonts.css');
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.whole {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: cover;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+}
+
+.o-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    padding: 1.5rem;
+    margin-top: 20px;
+    font-family: 'comicq';
+}
+
+.o-item {
+    padding: 1.2rem;
+    margin-top: 20px;
+    font-family: 'abel';
+}
+
+.item:hover {
+    background-color: coral;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.o-item:hover {
+    background-color: coral;
+    font-family: 'comicq';
+    border-radius: 1rem
+}
+
+.baar {
+    color: white;
+    display: none;
+}
+
+.h1 {
+    font-family: 'lexend';
+    font-weight: bold;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+@media screen and(max-width:750px) {
+    .menu {
+        display: none;
+    }
+    .options {
+        display: none;
+    }
+    .baar {
+        display: initial;
+    }
+}
